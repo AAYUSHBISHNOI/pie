@@ -15,7 +15,7 @@ const COLORS = ['blue', 'red', 'green', 'black' , 'pink' , 'hotpink' , 'lightgre
 
 const PieChartComponent = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen container mx-auto h-96 w-96">
+    <div className="flex justify-center items-center min-h-screen container mx-auto h-96 w-72">
       <PieChart className='flex' width={300} height={400}>
         <Pie
           data={data}
